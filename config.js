@@ -1,4 +1,5 @@
 const toBool = (x) => x == 'true'
+const keep_alive = require(' ./keep_alive.js')
 const { Sequelize } = require('sequelize')
 const { existsSync } = require('fs')
 const path = require('path')
