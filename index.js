@@ -1,4 +1,5 @@
 const { Client, logger } = require('./lib/client')
+const keep_alive = require(' ./keep_alive.js')
 const { DATABASE, VERSION } = require('./config')
 const { stopInstance } = require('./lib/pm2')
 
